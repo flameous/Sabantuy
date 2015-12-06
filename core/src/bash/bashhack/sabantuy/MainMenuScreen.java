@@ -65,7 +65,7 @@ public class MainMenuScreen extends ScreenAdapter {
         if (MySabantuyGame.isBash) {
             game.batch.draw(Assets.menuBash, 0, 0);
         } else {
-            game.batch.draw(Assets.menuRu, 0, 0);
+            game.batch.draw(Assets.menuRus, 0, 0);
         }
 
         game.batch.end();
