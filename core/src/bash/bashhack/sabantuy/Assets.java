@@ -65,7 +65,7 @@ public class Assets {
 
         Texture walk = new Texture(Gdx.files.internal("walkingGame/walking.png"));
 
-        int size = 256;
+        int size = 512;
         walkAnimation = new Animation(0.1f, new TextureRegion(walk, 0, 0, size, size),
                 new TextureRegion(walk, size, 0, size, size), new TextureRegion(walk, size*2, 0, size, size),
                 new TextureRegion(walk, size*3, 0, size, size), new TextureRegion(walk, size*4, 0, size, size),
