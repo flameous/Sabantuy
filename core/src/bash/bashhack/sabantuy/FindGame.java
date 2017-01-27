@@ -142,33 +142,33 @@ public class FindGame extends ScreenAdapter {
 
         if (currentState == State.BRIFIENG) {
             if (MySabantuyGame.isBash) {
-                game.batch.draw(Assets.findItemBriefBash, 0, 0);
+                game.batch.draw(Assets.brief_bash, 0, 0);
             } else {
-                game.batch.draw(Assets.findItemBriefRu, 0, 0);
+                game.batch.draw(Assets.brief_rus, 0, 0);
             }
         }
 
         if (currentState == State.FINISH) {
-            game.batch.draw(Assets.findItemBriefEnd, 0, 0);
+            game.batch.draw(Assets.brief_end, 0, 0);
             if (bashLostItems.contains(bow)) {
-                game.batch.draw(Assets.wrongIcon, 35, 820);
+                game.batch.draw(Assets.wrong, 35, 820);
             } else {
-                game.batch.draw(Assets.rightIcon, 35, 820);
+                game.batch.draw(Assets.right, 35, 820);
             }
             if (bashLostItems.contains(babyHouse)) {
-                game.batch.draw(Assets.wrongIcon, 35, 610);
+                game.batch.draw(Assets.wrong, 35, 610);
             } else {
-                game.batch.draw(Assets.rightIcon, 35, 610);
+                game.batch.draw(Assets.right, 35, 610);
             }
             if (bashLostItems.contains(bashkirHat)) {
-                game.batch.draw(Assets.wrongIcon, 35, 400);
+                game.batch.draw(Assets.wrong, 35, 400);
             } else {
-                game.batch.draw(Assets.rightIcon, 35, 400);
+                game.batch.draw(Assets.right, 35, 400);
             }
             if (bashLostItems.contains(kurai)) {
-                game.batch.draw(Assets.wrongIcon, 35, 190);
+                game.batch.draw(Assets.wrong, 35, 190);
             } else {
-                game.batch.draw(Assets.rightIcon, 35, 190);
+                game.batch.draw(Assets.right, 35, 190);
             }
         }
 
